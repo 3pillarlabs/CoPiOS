@@ -12,4 +12,4 @@ WWDC 2016 Video - [Measurements and Units](https://developer.apple.com/videos/pl
 
 Foundation - [Units and Measurements](https://developer.apple.com/documentation/foundation/units_and_measurement)
 
-[Builtin Units](https://developer.apple.com/documentation/foundation/dimension)
+[Built-in Units](https://developer.apple.com/documentation/foundation/dimension)
