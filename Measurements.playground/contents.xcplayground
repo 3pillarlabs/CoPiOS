@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Basics'/>
+        <page name='Usage'/>
+        <page name='Formatting'/>
+        <page name='Extending Existing Units'/>
+        <page name='Custom Units'/>
+        <page name='Custom Converter'/>
+        <page name='Use Cases'/>
+    </pages>
+</playground>

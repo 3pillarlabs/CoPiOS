@@ -1,13 +1,15 @@
-# CoP iOS
+# Measurements
 
 ## Overview
 
-To be added.
+Starting with iOS 10, Apple created new classes in Foundation framework which can be used to associate a value with a unit, performs conversions between units within same dimension. Using this abstraction, we may create complex features with little work and high business value.
 
-## Sessions
+In this session you may find how to use the built-in units, extend when neeeded and create your own.
 
-### 2018
+## References - Apple Documentation
 
-1. [Resurrection of MVC](https://github.com/3pillarlabs/CoPiOS/tree/sessions/resurrection-of-mvc)
-2. Criptography in iOS
-3. Measurements
+WWDC 2016 Video - [Measurements and Units](https://developer.apple.com/videos/play/wwdc2016/238)
+
+Foundation - [Units and Measurements](https://developer.apple.com/documentation/foundation/units_and_measurement)
+
+[Builtin Units](https://developer.apple.com/documentation/foundation/dimension)
