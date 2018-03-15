@@ -5,7 +5,7 @@ Often we tried various software architectures on iOS platform in order to achive
 
 This we have another try, but with a variation of MVC called Hierarchical MVC.
 
-The [slides](Slides---diagrams) provides a brief history of MVC and the demos ([Basic MVC](Demo/Basic-MVC) and [Cell View Controllers](Demo/CellViewControllers)) provides a way to implement Hierarchical MVC.
+The [slides](Slides%20-%20diagrams) provides a brief history of MVC and the demos ([Basic MVC](Demo/BasicMVC) and [Cell View Controllers](Demo/CellViewControllers)) provides a way to implement Hierarchical MVC.
 
 For further reading, I invite you to access the references.
 
