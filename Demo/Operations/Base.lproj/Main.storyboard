@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RMx-3f-FxP">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Master-->
+        <scene sceneID="pY4-Hu-kfo">
+            <objects>
+                <navigationController title="Master" id="RMx-3f-FxP" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Pmd-2v-anx">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="G6z-T7-sTL" kind="relationship" relationship="rootViewController" id="6HC-Ti-3mh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8fS-aE-onr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-38" y="-630"/>
+        </scene>
+        <!--Master View Controller-->
+        <scene sceneID="w83-i3-a5p">
+            <objects>
+                <viewController id="G6z-T7-sTL" customClass="MasterViewController" customModule="Operations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oDH-r3-0bc"/>
+                        <viewControllerLayoutGuide type="bottom" id="cOa-20-fbR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gqA-DO-HEg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyE-ed-Kz0">
+                                <rect key="frame" x="165.5" y="311.5" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="FxB-11-Yfd"/>
+                                    <constraint firstAttribute="width" secondItem="kyE-ed-Kz0" secondAttribute="height" multiplier="1:1" id="P6C-Z6-fsk"/>
+                                </constraints>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startDidTouchUpInside:" destination="G6z-T7-sTL" eventType="touchUpInside" id="bFR-Rq-yrL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kyE-ed-Kz0" firstAttribute="centerY" secondItem="gqA-DO-HEg" secondAttribute="centerY" id="522-YG-4uf"/>
+                            <constraint firstItem="kyE-ed-Kz0" firstAttribute="centerX" secondItem="gqA-DO-HEg" secondAttribute="centerX" id="5r5-SG-1El"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rfr-9P-Gx4"/>
+                    <connections>
+                        <segue destination="JEX-9P-axG" kind="show" identifier="showDetailViewSegue" id="hmY-5U-Mmz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z83-vr-JsM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="694" y="-630"/>
+        </scene>
+        <!--Detail-->
+        <scene sceneID="yUG-lL-AsK">
+            <objects>
+                <viewController title="Detail" id="JEX-9P-axG" customClass="DetailViewController" customModule="Operations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SYR-Wa-9uf"/>
+                        <viewControllerLayoutGuide type="bottom" id="GAO-Cl-Wes"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="svH-Pt-448">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gAV-DC-SkH">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gAV-DC-SkH" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leading" id="4vn-Iw-Xsh"/>
+                            <constraint firstItem="gAV-DC-SkH" firstAttribute="top" secondItem="SYR-Wa-9uf" secondAttribute="bottom" id="FeX-eP-lPt"/>
+                            <constraint firstItem="gAV-DC-SkH" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="gLI-V1-IFh"/>
+                            <constraint firstItem="GAO-Cl-Wes" firstAttribute="top" secondItem="gAV-DC-SkH" secondAttribute="bottom" id="smZ-QM-gFb"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <connections>
+                        <outlet property="textView" destination="gAV-DC-SkH" id="6Je-6l-nXV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428" y="-630.13493253373315"/>
+        </scene>
+    </scenes>
+</document>
