@@ -10,6 +10,7 @@ To be added.
 
 - 13.07.2017 | [AutoLayout](https://github.com/3pillarlabs/CoPiOS/tree/sessions/autolayout)
 - 20.07.2017 | [Self sizing table view cells](https://github.com/3pillarlabs/CoPiOS/tree/sessions/self-sizing-table-view-cells)
+- 03.08.2017, 17.08.2017 | [Synchronized animations](https://github.com/3pillarlabs/CoPiOS/tree/sessions/synchronized-animations)
 
 ### 2018
 
