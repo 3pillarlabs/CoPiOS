@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutolayLayoutExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgv-8n-5MD" userLabel="Left Label">
+                                <rect key="frame" x="12" y="70" width="285" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bG8-ed-GAu" userLabel="Right Label">
+                                <rect key="frame" x="321" y="70" width="42" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Oj4-Ex-v67" customClass="TextField" customModule="AutolayLayoutExample" customModuleProvider="target">
+                                <rect key="frame" x="87" y="286" width="200" height="93.5"/>
+                                <color key="backgroundColor" red="0.90588235289999997" green="0.61960784310000006" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="78"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Pw-RC-Abt" customClass="View" customModule="AutolayLayoutExample" customModuleProvider="target">
+                                <rect key="frame" x="137" y="467" width="100" height="100"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.36300223209999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xgv-8n-5MD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="12" id="Bqh-38-9tk"/>
+                            <constraint firstItem="bG8-ed-GAu" firstAttribute="centerY" secondItem="xgv-8n-5MD" secondAttribute="centerY" id="NeH-UT-TpZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4Pw-RC-Abt" secondAttribute="bottom" constant="100" id="Pys-Oh-8vH"/>
+                            <constraint firstItem="xgv-8n-5MD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="XB1-RF-JLT"/>
+                            <constraint firstItem="Oj4-Ex-v67" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="e9z-ho-LTx"/>
+                            <constraint firstItem="Oj4-Ex-v67" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eSF-Q2-Xk2"/>
+                            <constraint firstItem="bG8-ed-GAu" firstAttribute="leading" secondItem="xgv-8n-5MD" secondAttribute="trailing" constant="24" id="pDv-60-bgO"/>
+                            <constraint firstAttribute="trailing" secondItem="bG8-ed-GAu" secondAttribute="trailing" constant="12" id="vr4-db-ab5"/>
+                            <constraint firstItem="4Pw-RC-Abt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xO0-Jl-a6z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="leftLabel" destination="xgv-8n-5MD" id="5Ji-3r-Y6O"/>
+                        <outlet property="rightLabel" destination="bG8-ed-GAu" id="tBn-VP-iXR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>
