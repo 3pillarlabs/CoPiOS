@@ -6,6 +6,10 @@ To be added.
 
 ## Sessions
 
+### 2017
+
+- 13.07.2017 | [AutoLayout](https://github.com/3pillarlabs/CoPiOS/tree/sessions/autolayout)
+
 ### 2018
 
 - 01.03.2018 | [Resurrection of MVC](https://github.com/3pillarlabs/CoPiOS/tree/sessions/resurrection-of-mvc)
