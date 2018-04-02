@@ -9,6 +9,7 @@ To be added.
 ### 2017
 
 - 13.07.2017 | [AutoLayout](https://github.com/3pillarlabs/CoPiOS/tree/sessions/autolayout)
+- 20.07.2017 | [Self sizing table view cells](https://github.com/3pillarlabs/CoPiOS/tree/sessions/self-sizing-table-view-cells)
 
 ### 2018
 
