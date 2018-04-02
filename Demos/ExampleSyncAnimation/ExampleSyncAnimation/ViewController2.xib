@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController2" customModule="ExampleSyncAnimation" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="EgD-tG-44v" id="PUB-P0-APn"/>
+                <outlet property="verticalCenter" destination="wZA-f3-tX4" id="mZy-Is-u1d"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzM-xh-O2v">
+                    <rect key="frame" x="172" y="85" width="31" height="30"/>
+                    <state key="normal" title="Prev"/>
+                    <connections>
+                        <action selector="prevButtonDidTouchUpInside:" destination="-1" eventType="touchUpInside" id="ztG-Rw-8k1"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Centered Text Label Centered Text Label Centered Text Label Centered Text Label Centered Text Label Centered Text Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgD-tG-44v">
+                    <rect key="frame" x="110.5" y="323" width="154" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="EgD-tG-44v" secondAttribute="trailing" constant="110.5" id="MOE-fu-n90"/>
+                <constraint firstItem="bzM-xh-O2v" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="a94-Xz-eWg"/>
+                <constraint firstItem="EgD-tG-44v" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="d3z-3y-5lR"/>
+                <constraint firstItem="EgD-tG-44v" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="110.5" id="g67-nl-sCq"/>
+                <constraint firstItem="bzM-xh-O2v" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="85" id="oNn-2Y-TSf"/>
+                <constraint firstItem="EgD-tG-44v" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="wZA-f3-tX4"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
