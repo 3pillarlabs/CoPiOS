@@ -78,8 +78,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.label1.text = pair.one
         cell.label2.text = pair.two
         return cell.systemLayoutSizeFitting(CGSize(width: tableView.bounds.width, height: CGFloat.greatestFiniteMagnitude),
-                                     withHorizontalFittingPriority: UILayoutPriorityRequired,
-                                     verticalFittingPriority: UILayoutPriorityFittingSizeLevel).height
+                                     withHorizontalFittingPriority: .required,
+                                     verticalFittingPriority: .fittingSizeLevel).height
     }
 
 //    Used for self sizing cell
