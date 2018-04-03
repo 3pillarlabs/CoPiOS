@@ -8,15 +8,83 @@ To be added.
 
 ### 2017
 
-- 13.07.2017 | [AutoLayout](https://github.com/3pillarlabs/CoPiOS/tree/sessions/autolayout)
-- 20.07.2017 | [Self sizing table view cells](https://github.com/3pillarlabs/CoPiOS/tree/sessions/self-sizing-table-view-cells)
-- 03.08.2017, 17.08.2017 | [Synchronized animations](https://github.com/3pillarlabs/CoPiOS/tree/sessions/synchronized-animations)
-- 24.08.2017, 31.08.2017, 07.09.2017 | [Operations](https://github.com/3pillarlabs/CoPiOS/tree/sessions/operations)
-- 14.09.2017 | [Memory management tips&ticks](https://github.com/3pillarlabs/CoPiOS/tree/sessions/memory-management-tips-and-tricks)
-- 16.11.2017 | [State machines in GamplayKit](https://github.com/3pillarlabs/CoPiOS/tree/sessions/state-machine)
+<table>
+  <tr>
+    <td align="center">13.07.2017</td>
+    <td><a href="https://github.com/3pillarlabs/CoPiOS/tree/sessions/autolayout">AutoLayout</a></td>
+  </tr>
+  
+  <tr>
+    <td align="center">20.07.2017</td>
+    <td>
+      <a href="https://github.com/3pillarlabs/CoPiOS/tree/sessions/self-sizing-table-view-cells">
+        Self sizing table view cells
+      </a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center">
+      03.08.2017</br>17.08.2017
+    </td>
+    <td>
+      <a href="https://github.com/3pillarlabs/CoPiOS/tree/sessions/synchronized-animations">Synchronized animations</a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center">
+      24.08.2017</br>31.08.2017</br>07.09.2017
+    </td>
+    <td>
+      <a href="https://github.com/3pillarlabs/CoPiOS/tree/sessions/operations">Operations</a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center">14.09.2017</td>
+    <td>
+      <a href="https://github.com/3pillarlabs/CoPiOS/tree/sessions/memory-management-tips-and-tricks">
+        Memory management tips&ticks
+      </a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center">16.11.2017</td>
+    <td>
+      <a href="https://github.com/3pillarlabs/CoPiOS/tree/sessions/state-machine">
+        State machines in GamplayKit
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### 2018
 
-- 01.03.2018 | [Resurrection of MVC](https://github.com/3pillarlabs/CoPiOS/tree/sessions/resurrection-of-mvc)
-- 08.03.2018 | Criptography in iOS
-- 15.03.2018 | [Measurements](https://github.com/3pillarlabs/CoPiOS/tree/sessions/measurements)
+<table>
+  <tr>
+    <td align="center">01.03.2018</td>
+    <td>
+      <a href="https://github.com/3pillarlabs/CoPiOS/tree/sessions/resurrection-of-mvc">
+        Resurrection of MVC
+      </a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center">08.03.2018</td>
+    <td>
+      Criptography in iOS
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center">01.03.2018</td>
+    <td>
+      <a href="https://github.com/3pillarlabs/CoPiOS/tree/sessions/measurements">
+        Measurements
+      </a>
+    </td>
+  </tr>
+</table>
