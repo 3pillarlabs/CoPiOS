@@ -13,6 +13,7 @@ To be added.
 - 03.08.2017, 17.08.2017 | [Synchronized animations](https://github.com/3pillarlabs/CoPiOS/tree/sessions/synchronized-animations)
 - 24.08.2017, 31.08.2017, 07.09.2017 | [Operations](https://github.com/3pillarlabs/CoPiOS/tree/sessions/operations)
 - 14.09.2017 | [Memory management tips&ticks](https://github.com/3pillarlabs/CoPiOS/tree/sessions/memory-management-tips-and-tricks)
+- 16.11.2017 | [State machines in GamplayKit](https://github.com/3pillarlabs/CoPiOS/tree/sessions/state-machine)
 
 ### 2018
 
