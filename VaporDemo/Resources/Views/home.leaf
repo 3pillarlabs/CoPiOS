@@ -1,0 +1,17 @@
+<html>
+<body>
+<h3>Vapor Demo</h3>
+<form method="post" action="/send">
+<p>Username: <input type="text" name="username" /></p>
+<p><textarea name="content" rows="10" cols="40" placeholder="Write your message here"></textarea></p>
+<p><input type="submit" /></p>
+</form>
+
+<h2>Messages from others…</h2>
+
+#for(message in messages) {
+<p>User: #(message.username) wrote: "#(message.content)".</p>
+}
+
+</body>
+</html>
