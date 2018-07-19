@@ -87,4 +87,13 @@ To be added.
       </a>
     </td>
   </tr>
+  
+  <tr>
+    <td align="center">01.03.2018</td>
+    <td>
+      <a href="https://github.com/3pillarlabs/CoPiOS/tree/sessions/server-side-swift-vapor">
+        Server-side Swift using Vapor
+      </a>
+    </td>
+  </tr>
 </table>
