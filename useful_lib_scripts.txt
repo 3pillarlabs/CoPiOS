@@ -1,0 +1,23 @@
+# Type a script or drag a script file from your workspace to insert its path.
+cd /Users/tudor.stanean/Development/COP/TestFramework/TestFramework
+
+xcrun xcodebuild -target TestFramework -configuration Debug -sdk iphonesimulator -allowProvisioningUpdates CODE_SIGN_ENTITY="" CODE_SIGNING_REQUIRED=NO
+
+xcrun xcodebuild -target TestFramework -configuration Debug -sdk iphoneos -allowProvisioningUpdates CODE_SIGN_ENTITY="" CODE_SIGNING_REQUIRED=NO
+
+MAIN_BUILD_DIR="<<BUILD_LOCATION>>" 
+MAIN_PROJECT_DIR="<<PROJECT_LOCATION>>"
+
+mkdir -p "/Users/tudor.stanean/Development/COP/TestFramework/TestFramework/build/Universal"
+
+cp -R "${MAIN_BUILD_DIR}/Debug-iphoneos/TestFramework.framework" "${MAIN_BUILD_DIR}/Universal"
+
+cp -R "${MAIN_BUILD_DIR}/Debug-iphonesimulator/TestFramework.framework/Modules/TestFramework.swiftmodule/." "${MAIN_BUILD_DIR}/Universal/TestFramework.framework/Modules/TestFramework.swiftmodule/."
+
+lipo -create "${MAIN_BUILD_DIR}/Debug-iphonesimulator/TestFramework.framework/TestFramework" "${MAIN_BUILD_DIR}/Debug-iphoneos/TestFramework.framework/TestFramework" -output "${MAIN_BUILD_DIR}/Universal/TestFramework.framework/TestFramework"
+
+cp -R "${MAIN_BUILD_DIR}/Universal/TestFramework.framework/" "${MAIN_PROJECT_DIR}/TestFramework.framework"
+
+
+
+
