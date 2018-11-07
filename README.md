@@ -98,7 +98,7 @@ To be added.
   </tr>
   
   <tr>
-    <td align="center">01.10.2018</td>
+    <td align="center">01.11.2018</td>
     <td>
       <a href="https://github.com/3pillarlabs/CoPiOS/tree/sessions/framework_build_guideline">
         Swift Framework Projects
