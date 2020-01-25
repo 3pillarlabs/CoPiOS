@@ -1,9 +1,5 @@
 # CoP iOS
 
-## Overview
-
-To be added.
-
 ## Sessions
 
 ### 2017
@@ -105,6 +101,17 @@ To be added.
       </a>
     </td>
   </tr>
-  
-  
+</table>
+
+### 2020
+
+<table>
+  <tr>
+    <td align="center">05.03.2020</td>
+    <td>
+      <a href="https://github.com/3pillarlabs/CoPiOS/tree/sessions/self-sizing-cells">
+        Self-sizing cells
+      </a>
+    </td>
+  </tr>
 </table>
